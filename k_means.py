@@ -160,7 +160,7 @@ def main():
     data = np.genfromtxt("clustering_data.csv", delimiter=' ')
 
     #m is the fuzzifier... I think values between 1 and 2 seem to work best for this data
-    m = 1.2
+    m = 2
     epochs = 10
 
     #Run both K and Fuzzy means with same starting points with 2 centroids.
